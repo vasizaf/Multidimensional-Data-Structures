@@ -80,3 +80,14 @@ Ensure you have Python 3.x installed. You will also need `pandas` for handling t
     ```
 
 > **Note:** Ensure the `simplified_coffee.csv` file is located in the same directory as the scripts before launching the application.
+
+## 👥 Contributors
+This project was developed as a group assignment for the **[Multidimensional Data Structures course]** at **[CEID, University of Patras]**.
+
+* **[Vasileios Zafeiris]** - *[R-Tree Logic & all GUIs]*
+* **[Panagiotis Psaltiras]** - *[k-d tree Logic & LSH Algorithm]* - [GitHub Profile](https://github.com/Pan4g10tis)
+* **[Georgios Zannis]** - *[Range Tree Logic]* - [GitHub Profile](https://github.com/GeoZann)
+* **[Panagiotis Vasilopoulos]** - *[Quadtree Logic]*
+
+---
+*Note: This project is for educational purposes, focusing on the comparative analysis of spatial access methods.*
