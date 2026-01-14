@@ -38,9 +38,8 @@ The system executes a **2-Phase Query Processing** pipeline:
 ## 📊 Performance Evaluation
 A core component of this project is the comparative analysis of the four trees.
 
-*(Note: Add your specific findings here. Example below)*
 * **Space Complexity:** The k-d tree proved to be the most memory-efficient.
-* **Query Time:** The Range Tree offered the fastest orthogonal range search but suffered from high memory overhead ($O(n \log^{k-1} n)$).
+* **Query Time:** The Range Tree offered the fastest orthogonal range search but suffered from high memory overhead ($O(n\log^{k-1}n)$).
 * **High Dimensions:** The R-tree performed best when handling clusters of data points compared to the Quadtree which struggled with unbalanced distributions.
 
 ## 📂 File Structure
