@@ -20,7 +20,7 @@ All data structures were implemented from scratch in Python to evaluate their un
 | **Quadtree** | A tree data structure in which each internal node has exactly four children. | Ideal for 2D spatial indexing and image processing. |
 | **R-tree** | A balanced search tree that groups objects using Minimum Bounding Rectangles (MBR). | The standard for geospatial databases (e.g. PostGIS). |
 | **Range Tree** | A tree of trees (multi-level data structure). | Optimized specifically for orthogonal range queries. |
-| **LSH (MinHash)** | A probabilistic algorithm for reducing the dimensionality of high-dimensional data. | Used here to find similar text reviews in $O(1)$ time (approx). |
+| **LSH (MinHash)** | A probabilistic algorithm for reducing the dimensionality of high-dimensional data. | Used here to find similar text reviews in `O(1)` time (approx). |
 
 ## ⚙️ The Query Algorithm
 The system executes a **2-Phase Query Processing** pipeline:
@@ -53,3 +53,30 @@ A core component of this project is the comparative analysis of the four trees.
 ├── simplified_coffee.csv          # Initial dataset
 └── queries.txt                    # Batch of test queries
 ```
+
+## 🚀 How to Run
+
+### Prerequisites
+Ensure you have Python 3.x installed. You will also need `pandas` for handling the CSV dataset and `matplotlib` for plotting.
+
+1.  **Install Dependencies:**
+    ```bash
+    pip install pandas numpy matplotlib
+    ```
+
+### Execution
+2.  **Launch the Application:**
+    Run the main script to open the **Home GUI**. This dashboard allows you to select which Data Structure you want to initialize and visualize.
+    ```bash
+    python main.py
+    ```
+
+3.  **Direct Visualization (Optional):**
+    You can also run specific visualization modules directly if you want to bypass the main menu:
+    ```bash
+    python quadtree_gui.py
+    # OR
+    python kdtree_gui.py
+    ```
+
+> **Note:** Ensure the `simplified_coffee.csv` file is located in the same directory as the scripts before launching the application.
