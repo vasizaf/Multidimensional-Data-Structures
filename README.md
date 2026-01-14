@@ -2,9 +2,9 @@
 
 > A comparative study of spatial access methods (k-d Tree, Quadtree, R-tree, Range Tree) combined with Locality Sensitive Hashing (LSH) for efficient hybrid query processing.
 
-![Python](https://img.shields.io/badge/Language-Python-3776AB)
-![CS Concepts](https://img.shields.io/badge/Concepts-Spatial%20Indexing%20%7C%20LSH-orange)
-![Dataset](https://img.shields.io/badge/Data-Coffee%20Reviews-green)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Language](https://img.shields.io/badge/Language-Python-3776AB)
+![Concepts](https://img.shields.io/badge/Concepts-Spatial%20Indexing%20%7C%20LSH-orange)
 
 ## 📖 Overview
 This project addresses the challenge of performing efficient **k-dimensional range queries** combined with **textual similarity search** on a large dataset. 
