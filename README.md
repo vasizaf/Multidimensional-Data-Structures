@@ -87,7 +87,7 @@ This project was developed as a group assignment for the **[Multidimensional Dat
 * **[Vasileios Zafeiris]** - *[R-Tree Logic & all GUIs]*
 * **[Panagiotis Psaltiras]** - *[k-d tree Logic & LSH Algorithm]* - [GitHub Profile](https://github.com/Pan4g10tis)
 * **[Georgios Zannis]** - *[Range Tree Logic]* - [GitHub Profile](https://github.com/GeoZann)
-* **[Panagiotis Vasilopoulos]** - *[Quadtree Logic]*
+* **[Panagiotis Vasilopoulos]** - *[Quadtree Logic]* - [GitHub Profile](https://github.com/PanagiotisVas)
 
 ---
 *Note: This project is for educational purposes, focusing on the comparative analysis of spatial access methods.*
